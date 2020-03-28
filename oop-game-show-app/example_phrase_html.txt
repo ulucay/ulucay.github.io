@@ -1,0 +1,25 @@
+<div id="phrase" class="section">
+    <ul>
+        <li class="hide letter h">h</li>
+        <li class="hide letter o">o</li>
+        <li class="hide letter w">w</li>
+        <li class="space"> </li>
+        <li class="hide letter a">a</li>
+        <li class="hide letter r">r</li>
+        <li class="hide letter e">e</li>
+        <li class="space"> </li>
+        <li class="hide letter y">y</li>
+        <li class="hide letter o">o</li>
+        <li class="hide letter u">u</li>
+    </ul>
+</div>
+
+const listElements = document.querySelectorAll('#phrase ul li');
+        for(let i = 0 ; i < this.phrase.length ; i++){
+            if(this.phrase[i] == userLetter){
+                listElements[i].classList.remove('hide').add('show');
+            }
+            else{
+                return false;
+            }
+        }
